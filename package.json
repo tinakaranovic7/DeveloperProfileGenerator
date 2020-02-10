@@ -1,0 +1,29 @@
+{
+  "name": "dev-profile-generator",
+  "version": "1.0.0",
+  "description": "Generates a user profile from a Github username",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinakaranovic7/DeveloperProfileGenerator.git"
+  },
+  "keywords": [
+    "Profile",
+    "Github",
+    "Generator"
+  ],
+  "homepage": "https://github.com/tinakaranovic7/DeveloperProfileGenerator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "electron": "^5.0.3",
+    "electron-html-to": "^2.6.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.0.4",
+    "path": "^0.12.7",
+    "util": "^0.12.1"
+  },
+  "devDependencies": {}
+}
